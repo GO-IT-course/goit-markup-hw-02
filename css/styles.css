@@ -1,0 +1,161 @@
+:root {
+    --color-hover: #2196F3;
+    --color-white: #ffffff;
+    --color-black: #212121;
+    --color-text: #757575;
+}
+
+body {
+    font-family: "Roboto", "Tahoma", "Helvetica", sans-serif;
+    color: var(--color-black);
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: var(--color-hover);
+    font-size: 26px;
+    text-decoration: none;
+    font-family: 'Raleway', "Tahoma", "Helvetica", sans-serif;
+    font-weight: 700;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+}
+
+.navegation {
+    color: var(--color-black);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+}
+
+.hipervincule:hover {
+    color: var(--color-hover);
+}
+
+.contactheader {
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.142;
+    letter-spacing: 0.02;
+}
+
+.title {
+    color: var(--color-black);
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.363;
+    letter-spacing: 0.06;
+}
+
+.buttonprincipal {
+    color: var(--color-white);
+    background-color: var(--color-hover);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.characteristicstitle {
+    color: var(--color-black);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+}
+
+.characteristicsbody {
+    color: var(--color-text);
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+}
+
+.photos {
+    color: var(--color-black);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    color: var(--color-black);
+    font-size: 36;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.166;
+    letter-spacing: 0.03em;
+}
+
+.teamname {
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.teamposition {
+    color: var(--color-text);
+    font-size: 16;
+    text-align: center;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+}
+
+.contactfooter {
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.142;
+    letter-spacing: 0.02;
+}
+
+.button {
+    color: var(--color-black);
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: var(--color-hover);
+    color: var(--color-white);
+}
+
+.buttonhiper {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.portfoliotitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfoliotype {
+    color: var(--color-text);
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
